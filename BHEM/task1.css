@@ -1,0 +1,151 @@
+body {
+    background-color: #ffffff;
+    color: #070606;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    align-items: center;
+        
+}
+
+header {
+   background-color: #030303;
+    padding: 10px;
+    text-align: center;
+   
+}
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fbf9f9;
+    font-weight: bold;
+}
+#TXT {
+    background-size: cover;
+    color: #0a0000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#TXT h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fd7a00;
+    color: #140b0b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#featured-products {
+    text-align: center;
+    padding: 50px 0;
+}
+#featured-products h3 {
+    color: #010505;
+}
+.product {
+    display: flow-root; 
+    margin: 30px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.product img {
+    width: 250px;
+}
+.product h4 {
+    margin-top: 10px;
+    color: #fff;
+}
+.product p {
+    color: #fff;
+}
+.price {
+    color: #fd7a00;
+    font-weight: bold;
+}
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fd7a00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info {
+    color: #fff;
+}
+.contact-info h4 {
+    margin: 0;
+    color: #fd7a00;
+}
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.social-media ul li a img {
+    width: 30px;
+}
+#cart {
+    text-align: center;
+    padding: 50px 0;
+}
+#cart h3 {
+    color: #fd7a00;
+}
+.cart-list {
+    display: none;
+    position: top;
+    top: 100%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    z-index: 1;
+}
+.cart-list li {
+    margin-bottom: 10px;
+}
+.cart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fd7a00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-button:hover,
+.cart-button:focus {
+    background-color: #ff9800;
+}

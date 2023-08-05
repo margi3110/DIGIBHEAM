@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <link rel="stylesheet" href="task1.css">   
+        <script>
+            function addToCart(productName, price) {
+                const cartList = document.getElementById('cart-list');
+                const cartItem = document.createElement('li');
+                cartItem.innerText = `${productName} - ${price}`;
+                cartList.appendChild(cartItem);
+                cartList.style.display = 'block';
+            }
+    
+            function toggleCart() {
+                const cartList = document.getElementById('cart-list');
+                cartList.style.display = cartList.style.display === 'none' ? 'block' : 'none';
+            }
+        </script>
+    <title>LANDING PAGE</title>
+</head>
+<body>
+  <header>
+        <h1></E-SHOP></h1>
+         <nav>
+            
+            <ul>
+                <div class="NEW">
+                  <li><a href="HOME.html">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Categories</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li class="cart">
+                        <button class="cart-button" onclick="toggleCart()">Cart</button>
+                        <table>
+                               <th>  <ul class="cart-list" id="cart-list"></ul></th>
+                        </table>
+                    </li>
+                </div>
+                
+                </ul>
+
+            
+            </nav>
+        </header>
+    
+        <section id="TXT">
+            <h2>FASHION ADDICT E-SHOP</h2>
+            <p>Discover The Letest Gold jewellery</p>
+            <a href="" class="cta-button">Shop Now</a>
+        </section>
+    
+        <section id="featured-products">
+            <h3>Featured Products</h3>
+            <div class="product">
+                <img src="maharani set.png" alt="Product 1">
+                <h4>Rani haar </h4>
+                <p><small>24 Carat Pure Gold,<br>Handmade,<br>Rani Haar jewellery is a traditional Indian necklace <br> that has been worn by royalty for centuries, <br>Style your Royalty With Rani Haar</style> </small></p>
+                <span class="price">₹5,00,000</span>
+                <button class="Buy Now" onclick="addToCart('Product 1', '5,00,000')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="earring's.jpg" alt="">
+                <h4> hoop earring</h4>
+                <p><small>Style your 24 Carat Gold hoops in different Variety</small></p>
+                <span class="price">₹35,550</span>
+                <button class="Buy Now" onclick="addToCart('Product 2', '35,550')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="2.jpg" alt="">
+                <h4>Diamond pendant</h4>
+                <p><small> Original Diamond,<br>with Gold Touch</small></p>
+                <span class="price">₹3,92,985</span>
+                <button class="Buy Now" onclick="addToCart('Product 1', '3,92,985')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="ring.webp" alt="Product 2">
+                <h4> Ring 
+                </h4>
+                <p><small>Unique Ring Desion</small></p>
+                <span class="price">₹10,000</span>
+                <button class="Buy Now" onclick="addToCart('Product 2', '₹10,000')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="b.webp" alt="Product 1">
+                <h4>Bracelet in Rose Gold</h4>
+                <p><small>22 Carat Rose Gold Bracelet</small></p>
+                <span class="price">₹50,000</span>
+                <button class="Buy Now" onclick="addToCart('Product 1', '50,000')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="M.jpg" alt="Product 2">
+                <h4> Mangalsutra With Black beads
+                </h4>
+                <p><small></small></p>
+                <span class="price">₹2,66,990</span>
+                <button class="Buy Now" onclick="addToCart('Product 2', '₹2,66,990')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="Bangles.jpg" alt="Product 1">
+                <h4>traditional Bangles</h4>
+                <p><small>beautiful Gold finish traditional Bangles</small></p>
+                <span class="price">₹2,59,535</span>
+                <button class="Buy Now" onclick="addToCart('Product 1', '2,59,535')">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chains.jpg" alt="Product 2">
+                <h4> Chain
+                </h4>
+                <p><small>Solid chain 24 Carat chain <br>Snake Chain Nacklace man and Woman jewellery</small></p>
+                <span class="price">₹60,000</span>
+                <button class="Buy Now" onclick="addToCart('Product 2', '60,000')">Buy Now</button>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email:fashionaddict@1234.com</p>
+                <p>Phone: 1234567892</p>
+            </div>
+            <div class="social-media">
+                <h4>Connect with Us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"><img src="twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </footer>
+    
+       
+    
+    
+</body>
+</html>
